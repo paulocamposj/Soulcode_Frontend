@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100wv;
+    background-image: linear-gradient(45deg, #f8f4c4, #47667b);
+    color: #f8f4c4;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    height: 75vh;
+    width: 55vw;
+    padding: 75px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+table{ 
+    height: 25vh;
+    margin-left: 40px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid white;
+    overflow: auto;
+}
+
+tr{
+    border: 1px solid white;
+}
+
+th{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+td{
+    border: 1px solid white;
+    padding-top: 5px;
+}
