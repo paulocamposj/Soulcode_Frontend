@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestre Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_960_720.png" alt="" width="150"
+                height="150">
+        </div>
+        <div class="header-menu">
+            <nav>
+                <a href="/index.html">Login</a>
+                <a href="/cadastro.html">Cadastro</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-form">
+            <form>
+                <label for="nome">Nome do Pokemon</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="data">Data de Captura</label><br>
+                <input type="date" id="data" name="data" required><br>
+
+                <label for="number">Pokebolas Utilizadas</label><br>
+                <input type="number" name="number" id="number">
+
+                <label for="type">Tipo</label><br>
+                <select id="type" name="type" required>
+                    <option value="">Selecione</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Fogo">Fogo</option>
+                    <option value="Água">Água</option>
+                    <option value="Ar">Ar</option>
+                    <option value="Planta">Planta</option>
+                    <option value="Elétrico">Elétrico</option>
+                    <option value="Gelo">Gelo</option>
+                </select>
+
+                <label for="mensagem">Informação de Captura</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+            </form>
+        </div>
+        <div class="main-img">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7f/Red_pokemon.png/160px-Red_pokemon.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <p>Paulo Campos &copy</p>
+    </footer>
+</body>
+
+</html>

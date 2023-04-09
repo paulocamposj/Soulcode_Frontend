@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestre Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_960_720.png" alt="" width="150"
+                height="150">
+        </div>
+        <div class="header-menu">
+            <nav>
+                <a href="/index.html">Login</a>
+                <a href="/cadastro.html">Cadastro</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-form">
+            <form>
+                <label for="id">ID Mestre</label>
+                <input type="text" id="id" name="id" required><br>
+
+                <label for="senha">Senha</label><br>
+                <input type="password" id="senha" name="senha" required><br>
+
+                <input type="submit" value="Entrar" onclick="redirecionar()">
+            </form>
+            </form>
+        </div>
+        <div class="main-img">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7f/Red_pokemon.png/160px-Red_pokemon.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <p>Paulo Campos &copy</p>
+    </footer>
+    <script>
+        function redirecionar() {
+    
+            window.location.href = "/poke.html"
+        }
+    </script>
+</body>
+</html>
