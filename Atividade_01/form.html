@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastre seus Filmes/Series Aqui</h1>
+    <main>
+        <div class="main-form">
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="tipo">Tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value="selecione">Selecione</option>
+                    <option value="filme">Filme</option>
+                    <option value="series">Series</option>
+                </select>
+
+                <label for="nomef">Nome do Filme/Série</label>
+                <input type="text" id="nomef" name="nomef" required>
+
+                <label for="url">Link Trailer</label>
+                <input type="url" name="url" id="url">
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h5>Paulo Campos &copy</h5>
+        <h5><a href="https://www.linkedin.com/in/paulocamposj/" target="_blank">Linkedin</a></h5>
+    </footer>
+</body>
+</html>
