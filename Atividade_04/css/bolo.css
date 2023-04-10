@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-color: #fef7e1;
+    text-align: center;
+    height: 10vh;
+}
+
+h1 {
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2aa87;
+}
+
+section{
+    padding: 50px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+article{
+    margin-top: 5px;
+    background-color: #fef7e1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;  
+}
+
+li {
+    padding-bottom: 2px;
+}
+
+footer{
+    padding-top: 10px;
+    height: 10vh;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fef7e1;
+}
